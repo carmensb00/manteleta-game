@@ -3,7 +3,7 @@ body {
   padding: 0;
   font-family: 'Baloo 2', cursive;
   /* Fondo amarillo pastel un poco más oscuro */
-  background: linear-gradient(135deg, #fff9c4, #fff59d); 
+  background: linear-gradient(135deg, #fff59d, #fdf49f); 
   color: #333;
   display: flex;
   align-items: center;
@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 90%;
   width: 500px;
-  background: #fff59d; /* fondo caja: amarillo más oscuro */
+  background: #fefcdb; /* fondo caja: amarillo más oscuro */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
@@ -53,7 +53,7 @@ button:hover {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 2.2rem;
+    font-size: 2.5rem;
   }
   .card {
     font-size: 1.2rem;
@@ -66,7 +66,7 @@ button:hover {
 }
 
 .logo {
-  width: 100px;
+  width: 120px;
   height: auto;
   margin-bottom: 10px;
   border-radius: 50%;
