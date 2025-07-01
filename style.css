@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
-  background: linear-gradient(135deg, #ffe6f0, #e0f7fa);
+  background: linear-gradient(135deg, #fffde7, #fff9c4); /* amarillo pastel */
   color: #333;
   display: flex;
   align-items: center;
@@ -13,9 +13,9 @@ body {
 .container {
   max-width: 90%;
   width: 500px;
-  background: #fff0f6;
+  background: #fffde0; /* fondo caja: amarillo más claro */
   border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
   text-align: center;
 }
@@ -23,21 +23,21 @@ body {
 h1 {
   font-size: 2rem;
   margin-bottom: 20px;
-  color: #ff69b4;
+  color: #fbc02d; /* amarillo dorado */
 }
 
 .card {
   font-size: 1.2rem;
-  background: #fff;
+  background: #fffff0; /* muy claro */
   border-radius: 15px;
   padding: 20px;
   margin-bottom: 20px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
 button {
-  background-color: #ffb6c1;
-  color: white;
+  background-color: #fdd835; /* amarillo intenso */
+  color: #333;
   border: none;
   padding: 12px 24px;
   font-size: 1rem;
@@ -47,7 +47,7 @@ button {
 }
 
 button:hover {
-  background-color: #ff69b4;
+  background-color: #fbc02d;
 }
 
 @media (max-width: 600px) {
@@ -63,6 +63,7 @@ button:hover {
     padding: 10px 20px;
   }
 }
+
 
 .logo {
   width: 80px;
