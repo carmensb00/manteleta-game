@@ -25,6 +25,7 @@ h1 {
   font-size: 3rem;  /* más grande */
   margin-bottom: 25px;
   color: #fbc02d; /* amarillo dorado */
+  font-weight: bold;
 }
 
 .card {
@@ -37,7 +38,7 @@ h1 {
 }
 
 button {
-  background-color: #fdd835;
+  background-color: #fddb44;
   color: #333;
   border: none;
   padding: 16px 32px; /* más grande */
@@ -53,7 +54,7 @@ button:hover {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 2.3rem;
+    font-size: 2.1rem;
   }
   .card {
     font-size: 1.2rem;
