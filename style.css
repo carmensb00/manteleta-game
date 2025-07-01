@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Comic Sans MS', 'Segoe UI', sans-serif;
+  font-family: 'Baloo 2', cursive;
   background: linear-gradient(135deg, #fffde7, #fff9c4); /* amarillo pastel */
   color: #333;
   display: flex;
