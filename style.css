@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 90%;
   width: 500px;
-  background: #fefcdb; /* fondo caja: amarillo más oscuro */
+  background: #fefcc7; /* fondo caja: amarillo más oscuro */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
@@ -53,7 +53,7 @@ button:hover {
 
 @media (max-width: 600px) {
   h1 {
-    font-size: 2.5rem;
+    font-size: 2.3rem;
   }
   .card {
     font-size: 1.2rem;
@@ -66,7 +66,7 @@ button:hover {
 }
 
 .logo {
-  width: 120px;
+  width: 140px;
   height: auto;
   margin-bottom: 10px;
   border-radius: 50%;
