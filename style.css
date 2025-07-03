@@ -46,12 +46,14 @@ button {
   border-radius: 25px;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  margin-top: 15px;
 }
 
 button:hover {
   background-color: #fbc02d;
 }
 
+/* Responsive */
 @media (max-width: 600px) {
   h1 {
     font-size: 2.1rem;
