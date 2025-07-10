@@ -1,7 +1,7 @@
 let preguntas = [];
 
 function cargarPreguntas() {
-  fetch('preguntas.csv')
+  fetch('preguntasDemo.csv')
     .then(response => response.text())
     .then(data => {
       const lineas = data.split('\n').slice(1); // saltamos cabecera
