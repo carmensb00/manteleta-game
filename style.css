@@ -2,9 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: 'Baloo 2', cursive;
-  /* Fondo amarillo pastel un poco más oscuro */
-  background: linear-gradient(135deg, #fff59d, #fdf49f); 
-  color: #333;
+  /* Fondo degradado rosita pastel */
+  background: linear-gradient(135deg, #ffe4ec, #ffd6e8);
+  color: #4a4a4a;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 90%;
   width: 500px;
-  background: #fefcc7; /* fondo caja: amarillo más oscuro */
+  background: #fff0f5; /* Fondo de la caja: rosa claro */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
@@ -22,35 +22,38 @@ body {
 }
 
 h1 {
-  font-size: 3rem;  /* más grande */
+  font-size: 3rem; /* Más grande */
   margin-bottom: 25px;
-  color: #fbc02d; /* amarillo dorado */
+  color: #ff80ab; /* Rosa principal */
   font-weight: bold;
 }
 
 .card {
-  font-size: 1.5rem; /* más grande */
-  background: #fffff0;
+  font-size: 1.5rem; /* Más grande */
+  background: #ffeef5;
   border-radius: 15px;
   padding: 25px;
   margin-bottom: 25px;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  box-shadow: 0 5px 15px rgba(255, 128, 171, 0.15);
+  color: #4a4a4a;
 }
 
 button {
-  background-color: #fddb44;
-  color: #333;
+  background-color: #ff80ab;
+  color: #fff;
   border: none;
-  padding: 16px 32px; /* más grande */
-  font-size: 1.2rem; /* más grande */
+  padding: 16px 32px; /* Más grande */
+  font-size: 1.2rem; /* Más grande */
   border-radius: 25px;
   cursor: pointer;
-  transition: background-color 0.3s ease;
+  transition: all 0.3s ease;
   margin-top: 15px;
+  box-shadow: 0 5px 15px rgba(255, 128, 171, 0.25);
 }
 
 button:hover {
-  background-color: #fbc02d;
+  background-color: #f06292;
+  transform: scale(1.05);
 }
 
 /* Responsive */
@@ -73,5 +76,5 @@ button:hover {
   height: auto;
   margin-bottom: 10px;
   border-radius: 50%;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
 }
