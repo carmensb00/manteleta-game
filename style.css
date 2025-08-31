@@ -14,7 +14,7 @@ body {
 .container {
   max-width: 90%;
   width: 500px;
-  background: #ffccdd; /* Fondo de la caja: rosa claro */
+  background: #fcd6e3; /* Fondo de la caja: rosa claro */
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
   padding: 30px 20px;
@@ -22,7 +22,7 @@ body {
 }
 
 h1 {
-  font-size: 2.5rem; /* Más grande */
+  font-size: 2.25rem; /* Más grande */
   margin-bottom: 25px;
   color: #ff80ab; /* Rosa principal */
   font-weight: bold;
